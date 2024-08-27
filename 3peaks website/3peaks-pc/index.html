@@ -30,7 +30,7 @@
     <section class="hero">
       <header>
         <div class="logo">
-          <img src="logo.png" alt="" />
+          <img src="images/logo.png" alt="" />
         </div>
         <div class="nav-bar">
           <nav>
@@ -38,7 +38,7 @@
               <li><a href="index.html" class="active">Home</a></li>
               <li><a href="#second-section">About us</a></li>
               <li><a href="#products">Products</a></li>
-              <li><a href="#">Contact us</a></li>
+              <li><a href="#contact">Contact us</a></li>
             </ul>
           </nav>
         </div>
@@ -93,8 +93,8 @@
           <div class="col" id="first-card">
             <div class="element-2">
               <h1>01</h1>
-              <img src="healthcare.png" alt="" srcset="" class="icon-1" />
-              <img src="healthcare-hover.png" alt="" class="icon-1-hover" />
+              <img src="images/healthcare.png" alt="" srcset="" class="icon-1" />
+              <img src="images/healthcare-hover.png" alt="" class="icon-1-hover" />
             </div>
 
             <h3>Healthcare</h3>
@@ -102,9 +102,9 @@
           <div class="col" id="second-card">
             <div class="element-2">
               <h1>02</h1>
-              <img src="hospitality.png" alt="" class="icon-2" />
+              <img src="images/hospitality.png" alt="" class="icon-2" />
               <img
-                src="hospitality-hover.png"
+                src="images/hospitality-hover.png"
                 alt=""
                 srcset=""
                 class="icon-2-hover"
@@ -115,16 +115,16 @@
           <div class="col">
             <div class="element-2">
               <h1>03</h1>
-              <img src="Manufacturing.png" alt="" class="icon-3" />
-              <img src="Manufacturing-hover.png" alt="" srcset="" class="icon-3-hover">
+              <img src="images/Manufacturing.png" alt="" class="icon-3" />
+              <img src="images/Manufacturing-hover.png" alt="" srcset="" class="icon-3-hover">
             </div>
             <h3>Manufacturing</h3>
           </div>
           <div class="col">
             <div class="element-2">
               <h1>04</h1>
-              <img src="Education.png" alt="" class="icon-4" />
-              <img src="education-hover.png" alt="" class="icon-4-hover">
+              <img src="images/Education.png" alt="" class="icon-4" />
+              <img src="images/education-hover.png" alt="" class="icon-4-hover">
             </div>
             <h3>Education</h3>
           </div>
@@ -135,9 +135,9 @@
           <div class="col" id="second-card">
             <div class="element-2">
               <h1>05</h1>
-              <img src="8.png" alt="" class="icon-2" />
+              <img src="images/8.png" alt="" class="icon-2" />
               <img
-                src="8-hover.png"
+                src="images/8-hover.png"
                 alt=""
                 srcset=""
                 class="icon-2-hover"
@@ -148,16 +148,16 @@
           <div class="col" id="third-card">
             <div class="element-2">
               <h1>06</h1>
-              <img src="transportation.png" alt="" class="icon-3" />
-              <img src="transportation-hover.png" alt="" srcset="" class="icon-3-hover">
+              <img src="images/transportation.png" alt="" class="icon-3" />
+              <img src="images/transportation-hover.png" alt="" srcset="" class="icon-3-hover">
             </div>
             <h3>Transportation</h3>
           </div>
           <div class="col" id="last-card">
             <div class="element-2">
               <h1>07</h1>
-              <img src="retail.png" alt="" class="icon-4" />
-              <img src="retail-hover.png" alt="" class="icon-4-hover">
+              <img src="images/retail.png" alt="" class="icon-4" />
+              <img src="images/retail-hover.png" alt="" class="icon-4-hover">
             </div>
             <h3 id="retail">Retail & Communication</h3>
           </div>
@@ -169,7 +169,7 @@
     <div class="aims">
         <div class="img">
         </div>
-        <img src="about-logo.png" alt="" class="about-logo">
+        <img src="images/about-logo.png" alt="" class="about-logo">
         <div class="industry-aims">
             <div class="content-aims">
                 <h2>Our industry aims</h2>
@@ -180,47 +180,87 @@
       </div>
     <section class="product" id="products">
         <h1>Products</h1>
-        <div class="product-gallery">
-          <div>
-            <div>
-              <span><img src="item-1.jpg" alt="" class="first-product"></span>
-              <h2>Scents & Diffusers</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+          <div class="carousel-inner">
+            <!-- <span aria-hidden="false"><i class="fa-solid fa-chevron-left fa-2xl" onclick="moveBack()"></i></span> -->
+            <div class="carousel-item active" id="carousel-first">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm" id="item-1">
+                        <img src="images/item-1.jpg" alt=""  class="item">
+                      <h2>Scents & Diffusers</h2>
+                    </div>
+                    <div class="col-sm" id="item-1">
+                      <img src="images/air-care.jpg" alt="" class="item-second">
+                      <h2>Air Care System</h2>
+                    </div>
+                    <div class="col-sm" id="item-1">
+                      <img src="images/best-hand-sanitizer-dispenser-scaled-1.jpg" alt="" class="item-third">
+                      <h2>Hand Sanitizers</h2>
+                    </div>
+                  </div>
+                </div>
             </div>
-            <div>
-              <span><img src="air-care.jpg" alt="" class="second-product"></span>
-              <h2>Air Care System</h2>
+            <div class="carousel-item" id="carouselExampleControl2">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm">
+                      <div class="col-sm" id="item-1">
+                          <img src="images/speciality-products.jpg" alt="" class="item">
+                          <h2>Speciiality Products</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="col-sm" id="item-1">
+                          <img src="images/hand-soap.jpg" alt="" class="item-second">
+                          <h2>Hand Soap</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="col-sm" id="item-1">
+                          <img src="images/flat-mop-and-Bucket1.jpg" alt="" class="item-third">
+                          <h2>Mop & Bucket</h2>
+                        </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-            <div>
-              <span><img src="Flat-mop-and-Bucket1.jpg" alt="" class="third-product"></span>
-              <h2>Cleaning Equipment & Accessories</h2>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="col-sm" id="item-1">
+                        <img src="images/hygiene-chemicals-scaled.jpg" alt="" class="item">
+                        <h2>Hygiene Chemicals</h2>
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="col-sm" id="item-1">
+                        <img src="images/chemical-dosing-unit.jpg" alt="" class="item-second">
+                        <h2>Chemical Dosing</h2>
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="col-sm" id="item-1">
+                        <img src="images/surface-sanitizers-scaled.jpg" alt="" class="item-third">
+                        <h2>Surface Sanitizers</h2>
+                      </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-              <span><img src="hygiene-chemicals-scaled.jpg" alt="" class="first-product"></span>
-              <h2>Hygiene Chemicals</h2>
-            </div>
-            <div>
-              <span><img src="speciality-products.jpg" alt="" class="second-product"></span>
-              <h2>Speciality Products</h2>
-            </div>
-            <div>
-              <span><img src="chemical-dosing-unit.jpg" alt="" class="third-product"></span>
-              <h2>Chemical Dosing Unit</h2>
-            </div>
-            <div>
-              <span><img src="best-hand-sanitizer-dispenser-scaled-1.jpg" alt="" class="first-product"></span>
-              <h2>Hand Sanitizers</h2>
-            </div>
-            
-            <div>
-              <span class="second-product"><img src="surface-sanitizers-scaled.jpg" alt="" class="second-product"></span>
-              <h2>Surface Sanitizers</h2>
-            </div>
-            <span class="third-product"><img src="hand-soap.jpg" alt="" class="third-product"></span>
-            <h2>Hand Soap</h2>
+            <span aria-hidden="false"><i class="fa-solid fa-chevron-left fa-2xl" onclick="moveBack()"></i>
+            <span aria-hidden="false" onclick="move()"><i class="fa-solid fa-chevron-right fa-2xl"></i></span>
           </div>
+          
+
+
         </div>
+  
+  
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <h1 class="contact-heading">Connect with us!</h1>
         <div class="main-container">
             <div class="content">
@@ -259,5 +299,82 @@
             </form>
         </div>
     </section>
+
+    <footer>
+      <div class="footer-right">
+        <!-- <img src="images/footer-flip.png" alt="" class="footer-img"> -->
+      </div>
+      <div class="footer-content">
+        <div class="logo-mail">
+          <img src="images/footer-logo.png" alt="">
+          <div class="subscription">
+            <h3>Subscribe to our newsletter</h3>
+            <input type="email" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="menu-icons">
+          <div class="nav-bar-footer">
+            <nav>
+              <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#second-section">About us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact us</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="icons">
+            <i class="fa-brands fa-facebook fa-lg"></i>
+            <i class="fa-brands fa-instagram fa-lg"></i>
+            <i class="fa-brands fa-twitter fa-lg"></i>
+          </div>
+        </div>
+        <div class="contact-footer">
+          <h3>Contact: +971 123 1121</h3>
+        </div>
+        <div class="line"></div>
+
+        <div class="rights">
+          <div class="copyright">
+            <h3>3Peaks - All Rights REserved</h3>
+            <h3>Powered by creative drop</h3>
+          </div>
+        </div>
+      </div>
+      
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+      function move() {
+        let next_slide =  document.getElementById('carouselExampleControl2');
+        document.getElementById('carousel-first').classList.remove('active');
+        next_slide.classList.add('active');
+        document.getElementsByClassName('fa-chevron-left')[0].style.color = '#000';
+        document.getElementsByClassName('fa-chevron-left')[0].style.cursor = 'pointer';
+        document.getElementsByClassName('fa-chevron-right')[0].style.color = '#e1e0db';
+
+
+        
+        
+      }
+
+      function moveBack() {
+        let prev_slide = document.getElementById('carouselExampleControl2');
+        prev_slide.classList.remove('active');
+        document.getElementById('carousel-first').classList.add('active');
+        document.getElementsByClassName('fa-chevron-left')[0].style.color = '#000';
+        document.getElementsByClassName('fa-chevron-left')[0].style.color = '#e1e0db';
+        document.getElementsByClassName('fa-chevron-right')[0].style.color = '#000';
+
+
+
+
+      }
+    </script>
+  
   </body>
 </html>
